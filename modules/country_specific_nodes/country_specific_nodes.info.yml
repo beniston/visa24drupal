@@ -1,0 +1,15 @@
+name: 'Country Specific Nodes'
+description: 'Handles country specific display of nodes.'
+type: 'module'
+package: 'Entity'
+# core: '8.x'
+configure: country_specific_nodes.provide_tabs
+dependencies:
+  - 'ip2country'
+  - 'field'
+
+# Information added by Drupal.org packaging script on 2017-10-26
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'country_specific_nodes'
+datestamp: 1509016757
